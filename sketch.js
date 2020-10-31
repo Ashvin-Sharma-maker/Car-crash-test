@@ -19,7 +19,7 @@ function draw() {
  
 
   car.velocityX = speed;
-  wall.shapeColor(80,80,80);
+  wall.shapeColor = 80,80,80;
 
   if(wall.x - car.x < (car.width+wall.width)/2)
   {
